@@ -6,4 +6,4 @@
   </p>
 </div>
 <br>
-<img src="Screenshot.png">
+<img src="ScreenshotR.png">
