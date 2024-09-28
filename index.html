@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <style data-styles="">
+        ion-icon {
+            visibility: hidden
+        }
+
+        .hydrated {
+            visibility: inherit
+        }
+    </style>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rand Nassar</title>
+
+    <!--
+      - favicon
+    -->
+    <link rel="shortcut icon" href="./assets/images/profile.png" type="image/x-icon">
+
+    <!--
+      - custom css link
+    -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/colors.css">
+    <link rel="stylesheet" href="assets/css/navbar.css">
+    <link rel="stylesheet" href="assets/css/sidebar.css">
+    <link rel="stylesheet" href="assets/css/about.css">
+    <link rel="stylesheet" href="assets/css/Resume.css">
+    <link rel="stylesheet" href="assets/css/portfolio.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <!--
+      - google font link
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&amp;display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+
+
+    <main>
+
+        <!--
+      sidebar
+    -->
+
+        <aside class="sidebar" data-sidebar="">
+            <div class="sidebar-info">
+                <!--            <figure class="avatar-box">-->
+                <!--                <img >-->
+                <!--            </figure>-->
+
+                <div class="info-content">
+                    <h1 class="name" title="Rand Nassar">Rand Nassar</h1>
+                    <p class="title">computer science</p>
+                </div>
+
+                <button class="info_more-btn" data-sidebar-btn="">
+                    <span>Show Contacts</span>
+                    <ion-icon name="chevron-down" role="img" class="md hydrated" aria-label="chevron down"></ion-icon>
+                </button>
+
+            </div>
+
+            <div class="sidebar-info_more">
+                <div class="separator"></div>
+                <ul class="contacts-list">
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline" role="img" class="md hydrated"
+                                aria-label="mail outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+                            <a href="mailto:nassar.rand@outlook.com" class="contact-link">nassar.rand@outlook.com</a>
+                        </div>
+
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="phone-portrait-outline" role="img" class="md hydrated"
+                                aria-label="phone portrait outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Phone</p>
+                            <a href="tel:+962782341272" class="contact-link">+962782341272</a>
+                        </div>
+
+                    </li>
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="calendar-outline" role="img" class="md hydrated"
+                                aria-label="calendar outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Birthday</p>
+                            <time datetime="2002-08-28">AUG 28, 2002</time>
+                        </div>
+
+                    </li>
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="location-outline" role="img" class="md hydrated"
+                                aria-label="location outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Location</p>
+                            <address>Amman, Jordan</address>
+                        </div>
+
+                    </li>
+
+                </ul>
+
+                <div class="separator"></div>
+
+                <ul class="social-list">
+
+                    <li class="social-item">
+                        <a href="https://www.linkedin.com/in/rand-nassar" class="social-link">
+                            <ion-icon name="logo-linkedin" role="img" class="md hydrated"
+                                aria-label="logo linkedin"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li class="social-item">
+                        <a href="https://github.com/RandNassar02" class="social-link">
+                            <ion-icon name="logo-github" role="img" class="md hydrated"
+                                aria-label="logo github"></ion-icon>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </aside>
+
+        <!--
+      main
+    -->
+        <div class="main-content">
+
+            <!--
+          navbar
+        -->
+
+            <nav class="navbar">
+                <ul class="navbar-list">
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link="">About</button>
+                    </li>
+
+                    <li class="navbar-item">
+                        <button class="navbar-link active" data-nav-link="">Resume</button>
+                    </li>
+
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link="">Portfolio</button>
+                    </li>
+
+                </ul>
+            </nav>
+
+
+            <!--
+          about
+        -->
+
+            <article class="about" data-page="about">
+                <header>
+                    <h2 class="h2 article-title">About me</h2>
+                </header>
+
+                <section class="about-text">
+                    <p>
+                        I am
+                    </p>
+
+                </section>
+
+
+                <!--
+                    service
+                -->
+
+                <section class="service">
+                    <h3 class="h3 service-title">What i'm doing</h3>
+                    <ul class="service-list">
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">doing</h4>
+
+                                <p class="service-item-text">
+                                    The ....
+                                </p>
+                            </div>
+
+                        </li>
+
+                        <li class="service-item">
+
+                            <div class="service-icon-box">
+                                <img src="" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">doing</h4>
+
+                                <p class="service-item-text">
+                                    The ....
+                                </p>
+                            </div>
+
+                        </li>
+
+                    </ul>
+
+                </section>
+
+                <!--
+               clients
+            -->
+
+                <section class="clients">
+
+                    <!-- <h3 class="h3 clients-title">Certifications and Achievements</h3> -->
+
+                    <ul class="clients-list has-scrollbar">
+                        <li class="clients-item">
+
+                        </li>
+
+                    </ul>
+
+                </section>
+
+            </article>
+
+
+            <!--
+          resume
+        -->
+            <article class="resume active" data-page="resume">
+
+                <header>
+                    <h2 class="h2 article-title">Resume</h2>
+                </header>
+                <!--            Experience-->
+                <section class="timeline">
+
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="book-outline" role="img" class="md hydrated"
+                                aria-label="book outline"></ion-icon>
+                        </div>
+
+                        <h3 class="h3">Experience</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+
+                        <li class="timeline-item">
+
+                            <h4 class="h4 timeline-item-title-head">ProgressSoft Corporation</h4>
+                            <h3 class="h3 timeline-item-title">Software Developer Intern</h3>
+
+                            <span>Jul 2024 - Sep 2024</span>
+
+                            <p class="timeline-text">
+                                Completed a 8-week internship, studying and working with different technologies
+                                intensively.
+                                Built a full-stack e-commerce web application using Spring Boot, Maven, HTML, CSS and
+                                JavaScript.
+                            </p>
+
+                        </li>
+                    </ol>
+                </section>
+
+                <!--            Education-->
+                <section class="timeline">
+
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="book-outline" role="img" class="md hydrated"
+                                aria-label="book outline"></ion-icon>
+                        </div>
+                        <h3 class="h3">Education</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Applied Science Private University </h4>
+                            <p class="timeline-text">Computer Science</p>
+                            <span>2022 - 2024</span>
+                        </li>
+
+                    </ol>
+
+                </section>
+
+                <!--             skill-->
+                <section class="skill">
+                    <h3 class="h3 skills-title">My skills</h3>
+                    <!--                <ul class="skills-list content-card">-->
+                    <ul class="project-list">
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Java</h5>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">C++</h5>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Python</h5>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">HTML</h5>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">CSS</h5>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">JavaScript</h5>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">TypeScript</h5>
+                            </div>
+                        </li>
+
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Spring Framework</h5>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Spring Boot</h5>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5"> ASP.NET MVC</h5>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Hibernate</h5>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Databases</h5>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">REST</h5>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">PostgreSQL</h5>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">MySQL</h5>
+                            </div>
+                        </li>
+
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Docker</h5>
+                            </div>
+                        </li>
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Version Control</h5>
+                            </div>
+                        </li>
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Java Swing</h5>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </section>
+
+            </article>
+
+
+            <!--
+                portfolio
+        -->
+            <article class="portfolio" data-page="portfolio">
+
+                <header>
+                    <h2 class="h2 article-title">Portfolio</h2>
+                </header>
+
+                <section class="projects">
+                    <ul class="filter-list">
+                        <li class="filter-item">
+                            <button class="active" data-filter-btn="">All</button>
+                        </li>
+                    </ul>
+
+                    <div class="filter-select-box">
+                        <button class="filter-select" data-select="">
+                            <div class="select-value" data-selecct-value="">Select category</div>
+                            <div class="select-icon">
+                                <ion-icon name="chevron-down" role="img" class="md hydrated"
+                                    aria-label="chevron down"></ion-icon>
+                            </div>
+                        </button>
+
+                        <ul class="select-list">
+                            <li class="select-item">
+                                <button data-select-item="">All</button>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <ul class="project-list">
+                        <li class="project-item  active" data-filter-item="" data-category="web">
+                            <a href="https://github.com/RandNassar02/E-commerce-springBoot" target="_blank">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline" role="img" class="md hydrated"
+                                            aria-label="eye outline"></ion-icon>
+                                    </div>
+
+                                    <img src="assets/images/E-commerce-springBoot.png" alt="E-commerce" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">E-Commerce</h3>
+
+                                <p class="project-category">
+
+                                    internship project:- full-stack web application using Spring Boot, Maven, HTML, CSS
+                                    and
+                                    JavaScript.
+                                </p>
+
+                            </a>
+                        </li>
+
+                        <li class="project-item  active" data-filter-item="" data-category="web">
+                            <a href="https://github.com/RandNassar02/MyScheduler" target="_blank">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline" role="img" class="md hydrated"
+                                            aria-label="eye outline"></ion-icon>
+                                    </div>
+
+                                    <img src="assets/images/MyScheduler.png" alt="MyScheduler" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">My Scheduler</h3>
+
+                                <p class="project-category">graduation project :- web app with a chat bot to create
+                                    semester
+                                    schedule for student depending on their degree progress
+                                    plan.</p>
+
+                            </a>
+                        </li>
+
+                        <li class="project-item  active" data-filter-item="" data-category="web">
+                            <a href="https://github.com/RandNassar02/Calculator" target="_blank">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline" role="img" class="md hydrated"
+                                            aria-label="eye outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./assets/images/Calculator.png" alt="Calculator" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Calculator</h3>
+
+                                <p class="project-category">
+                                    Using HTML CSS and JavaScript
+                                </p>
+
+                            </a>
+                        </li>
+
+
+
+
+                        <li class="project-item  active" data-filter-item="" data-category="webweb">
+                            <a href="https://github.com/RandNassar02/TIC-TAC-TOE" target="_blank">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline" role="img" class="md hydrated"
+                                            aria-label="eye outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./assets/images/TIC-TAC-TOE.png" alt="TIC-TAC-TOE" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">TIC-TAC-TOE</h3>
+
+                                <p class="project-category">Game with html, css and javascript.</p>
+
+                            </a>
+                        </li>
+
+
+
+
+
+                        <li class="project-item  active" data-filter-item="" data-category="webweb">
+                            <a href="https://github.com/RandNassar02/BMI-Calculator" target="_blank">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline" role="img" class="md hydrated"
+                                            aria-label="eye outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./assets/images/BMI.png" alt="BMI" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">BMI Calculator</h3>
+
+                                <p class="project-category">helps us to monitor health condition and diet plan.
+                                </p>
+
+                            </a>
+                        </li>
+
+
+                        <li class="project-item  active" data-filter-item="" data-category="webweb">
+                            <a href="https://github.com/RandNassar02/Picture-when-passing" target="_blank">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline" role="img" class="md hydrated"
+                                            aria-label="eye outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./assets/images/BMI.png" alt="BMI" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Prodect</h3>
+
+                                <p class="project-category">Picture when passing
+                                </p>
+
+                            </a>
+                        </li>
+
+                    </ul>
+                </section>
+            </article>
+        </div>
+
+    </main>
+
+
+    <script src="./assets/js/script.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+
+</body>
+</html>
